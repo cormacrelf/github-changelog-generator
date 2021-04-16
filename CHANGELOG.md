@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.18.0](https://github.com/cormacrelf/github-changelog-generator/tree/v1.18.0) (2021-04-16)
+
+[Full Changelog](https://github.com/cormacrelf/github-changelog-generator/compare/v1.17.0...v1.18.0)
+
+
+
+**Merged pull requests:**
+
+- new commit on branch [\#1](https://github.com/cormacrelf/github-changelog-generator/pull/1) ([cormacrelf](https://github.com/cormacrelf))
+
 ## [v1.17.0](https://github.com/github-changelog-generator/github-changelog-generator/tree/v1.17.0) (2021-04-16)
 
 [Full Changelog](https://github.com/github-changelog-generator/github-changelog-generator/compare/v1.16.1...v1.17.0)
