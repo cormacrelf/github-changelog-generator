@@ -1,5 +1,106 @@
 # Changelog
 
+## [v1.17.0](https://github.com/github-changelog-generator/github-changelog-generator/tree/v1.17.0) (2021-04-16)
+
+[Full Changelog](https://github.com/github-changelog-generator/github-changelog-generator/compare/v1.16.1...v1.17.0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Fixed bugs:**
+
+- Getting an error: ` 'list_issues': wrong number of arguments (given 3, expected 0..2) (ArgumentError)` [\#952](https://github.com/github-changelog-generator/github-changelog-generator/issues/952)
+
+**Closed issues:**
+
+- Docker images are not published for new releases [\#951](https://github.com/github-changelog-generator/github-changelog-generator/issues/951)
+- Not all options listed in OptionParser have optional arguments [\#945](https://github.com/github-changelog-generator/github-changelog-generator/issues/945)
+- Add Ruby 3 to CI, make it pass [\#928](https://github.com/github-changelog-generator/github-changelog-generator/issues/928)
+
+**Merged pull requests:**
+
+- Support Ruby 3 [\#949](https://github.com/github-changelog-generator/github-changelog-generator/pull/949) ([magneland](https://github.com/magneland))
+- Update help output to reflect required args. [\#946](https://github.com/github-changelog-generator/github-changelog-generator/pull/946) ([spark-c](https://github.com/spark-c))
+- Add --config-file command line parameter [\#917](https://github.com/github-changelog-generator/github-changelog-generator/pull/917) ([anakinj](https://github.com/anakinj))
+
+## [v1.16.1](https://github.com/github-changelog-generator/github-changelog-generator/tree/v1.16.1) (2021-03-22)
+
+[Full Changelog](https://github.com/github-changelog-generator/github-changelog-generator/compare/v1.16.0...v1.16.1)
+
+**Fixed bugs:**
+
+- Release 1.16: If you give a specifc name to the GitHubChangelogGenerator::RakeTask, it breaks. [\#942](https://github.com/github-changelog-generator/github-changelog-generator/issues/942)
+
+**Merged pull requests:**
+
+- Release 1.16.1 [\#944](https://github.com/github-changelog-generator/github-changelog-generator/pull/944) ([olleolleolle](https://github.com/olleolleolle))
+- Rake Task: avoid calling super with arguments to avoid an ArgumentError [\#943](https://github.com/github-changelog-generator/github-changelog-generator/pull/943) ([olleolleolle](https://github.com/olleolleolle))
+
+## [v1.16.0](https://github.com/github-changelog-generator/github-changelog-generator/tree/v1.16.0) (2021-03-21)
+
+[Full Changelog](https://github.com/github-changelog-generator/github-changelog-generator/compare/v1.15.2...v1.16.0)
+
+**Implemented enhancements:**
+
+- Enabling branch protection for the master branch [\#793](https://github.com/github-changelog-generator/github-changelog-generator/issues/793)
+- Cache API responses [\#361](https://github.com/github-changelog-generator/github-changelog-generator/issues/361)
+- Add no-http-cache option to rake task [\#739](https://github.com/github-changelog-generator/github-changelog-generator/pull/739) ([mcelicalderon](https://github.com/mcelicalderon))
+
+**Fixed bugs:**
+
+- Footer message that keeps replicating [\#787](https://github.com/github-changelog-generator/github-changelog-generator/issues/787)
+- `Octokit::NotFound' error happens since 372875f7  [\#695](https://github.com/github-changelog-generator/github-changelog-generator/issues/695)
+- Fix not parsing body\_only param for sections [\#755](https://github.com/github-changelog-generator/github-changelog-generator/pull/755) ([dusan-dragon](https://github.com/dusan-dragon))
+- Bugfix: undefined method line\_labels\_for [\#753](https://github.com/github-changelog-generator/github-changelog-generator/pull/753) ([dusan-dragon](https://github.com/dusan-dragon))
+
+**Closed issues:**
+
+- Can't install it. [\#933](https://github.com/github-changelog-generator/github-changelog-generator/issues/933)
+- pip install docker [\#924](https://github.com/github-changelog-generator/github-changelog-generator/issues/924)
+- configure\_sections needs better examples [\#923](https://github.com/github-changelog-generator/github-changelog-generator/issues/923)
+- Add PR that are not linked to an issue [\#890](https://github.com/github-changelog-generator/github-changelog-generator/issues/890)
+- the `-u` parameter in the readme is a bit misleading [\#877](https://github.com/github-changelog-generator/github-changelog-generator/issues/877)
+- presets/node.js [\#867](https://github.com/github-changelog-generator/github-changelog-generator/issues/867)
+- "Full Changelog" uses tags that are excluded [\#842](https://github.com/github-changelog-generator/github-changelog-generator/issues/842)
+- Failure with `stack level too deep` [\#829](https://github.com/github-changelog-generator/github-changelog-generator/issues/829)
+- Get rid of multi\_json [\#789](https://github.com/github-changelog-generator/github-changelog-generator/issues/789)
+- Nondeterministic moving/deleting of PRs in CHANGELOG.md [\#774](https://github.com/github-changelog-generator/github-changelog-generator/issues/774)
+- Special characters inside `inline_code` incorrectly escaped [\#742](https://github.com/github-changelog-generator/github-changelog-generator/issues/742)
+- Milestones on PRs not taken into account [\#457](https://github.com/github-changelog-generator/github-changelog-generator/issues/457)
+
+**Merged pull requests:**
+
+- Restoring tag hash references to string keys [\#937](https://github.com/github-changelog-generator/github-changelog-generator/pull/937) ([douglasmiller](https://github.com/douglasmiller))
+- Fixing 'stack level too deep error' in commits\_in\_tag [\#936](https://github.com/github-changelog-generator/github-changelog-generator/pull/936) ([douglasmiller](https://github.com/douglasmiller))
+- When tags are excluded, do not include those tags in diff links. [\#930](https://github.com/github-changelog-generator/github-changelog-generator/pull/930) ([ameir](https://github.com/ameir))
+- Add --include-tags-regex option. [\#929](https://github.com/github-changelog-generator/github-changelog-generator/pull/929) ([ameir](https://github.com/ameir))
+- Use UTC for future release date [\#926](https://github.com/github-changelog-generator/github-changelog-generator/pull/926) ([smortex](https://github.com/smortex))
+- Update issue templates [\#922](https://github.com/github-changelog-generator/github-changelog-generator/pull/922) ([skywinder](https://github.com/skywinder))
+- More concurrency [\#921](https://github.com/github-changelog-generator/github-changelog-generator/pull/921) ([ioquatix](https://github.com/ioquatix))
+- updated the readme and the parser help message [\#878](https://github.com/github-changelog-generator/github-changelog-generator/pull/878) ([dmarticus](https://github.com/dmarticus))
+- \(chore\) Fix Performance/StartWith [\#851](https://github.com/github-changelog-generator/github-changelog-generator/pull/851) ([olleolleolle](https://github.com/olleolleolle))
+- add since-commit option [\#830](https://github.com/github-changelog-generator/github-changelog-generator/pull/830) ([takke](https://github.com/takke))
+- add option --\[no-\]issues-of-open-milestones [\#801](https://github.com/github-changelog-generator/github-changelog-generator/pull/801) ([Mairu](https://github.com/Mairu))
+- Don't escape special chars when they are in `inline_code` \(carried from \#743\) [\#797](https://github.com/github-changelog-generator/github-changelog-generator/pull/797) ([olleolleolle](https://github.com/olleolleolle))
+- Fix replicating template messages [\#794](https://github.com/github-changelog-generator/github-changelog-generator/pull/794) ([shinyaohtani](https://github.com/shinyaohtani))
+- Tell the truth in this comment [\#792](https://github.com/github-changelog-generator/github-changelog-generator/pull/792) ([olleolleolle](https://github.com/olleolleolle))
+- Section: Split quicker on newline [\#791](https://github.com/github-changelog-generator/github-changelog-generator/pull/791) ([olleolleolle](https://github.com/olleolleolle))
+- \(refactor\) Reuse an Entry instance in Section; change accessors to readers [\#790](https://github.com/github-changelog-generator/github-changelog-generator/pull/790) ([olleolleolle](https://github.com/olleolleolle))
+- Drop support for EOL Ruby versions [\#786](https://github.com/github-changelog-generator/github-changelog-generator/pull/786) ([olleolleolle](https://github.com/olleolleolle))
+- Use `async-http-faraday`. [\#784](https://github.com/github-changelog-generator/github-changelog-generator/pull/784) ([ioquatix](https://github.com/ioquatix))
+- CI: Ruby 2.3, Ruby 2.4 hold at ActiveSupport \< 6 [\#782](https://github.com/github-changelog-generator/github-changelog-generator/pull/782) ([olleolleolle](https://github.com/olleolleolle))
+- CI: JRuby 9.1 support: hold ActiveSupport at 5.x, introduce gemfiles/ directory [\#780](https://github.com/github-changelog-generator/github-changelog-generator/pull/780) ([olleolleolle](https://github.com/olleolleolle))
+- Fixing bug when filtering pull requests without labels [\#771](https://github.com/github-changelog-generator/github-changelog-generator/pull/771) ([douglasmiller](https://github.com/douglasmiller))
+
 ## [1.16.1](https://github.com/github-changelog-generator/github-changelog-generator/tree/1.16.1) (2021-03-22)
 
 [Full Changelog](https://github.com/github-changelog-generator/github-changelog-generator/compare/v1.16.0...1.16.1)
