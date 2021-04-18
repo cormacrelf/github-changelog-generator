@@ -1,5 +1,6 @@
 # Changelog
 
+
 ## [v1.18.0](https://github.com/cormacrelf/github-changelog-generator/tree/v1.18.0) (2021-04-16)
 
 [Full Changelog](https://github.com/cormacrelf/github-changelog-generator/compare/v1.17.0...v1.18.0)
